@@ -1,0 +1,279 @@
+﻿<Page x:Class="salon2.contact"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:salon2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="contact"
+      Background="#181735">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="79*"/>
+                <RowDefinition Height="346*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Background="#0F0F2D"
+                Grid.ColumnSpan="2">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition
+                    />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Beautys"
+                    Foreground="White"
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontFamily="Bauhaus 93"
+                    FontWeight="Medium"/>
+
+                <Button x:Name="inchide" Content="X"
+                    Foreground="White"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="13" FontFamily="Bauhaus 93">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Bahnschrift Light SemiCondensed"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#ff4c70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="30" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+                <Button Content="-"
+                    Foreground="White"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="12"   Grid.ColumnSpan="2" Margin="10,0,47,0">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Bahnschrift Light SemiCondensed"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#ff4c70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="30" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+                <Button Content="-"
+                    Foreground="White"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="12"   Grid.ColumnSpan="2" Margin="10,0,47,0">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Bahnschrift Light SemiCondensed"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#ff4c70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="30" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+                <Button Content="-"
+                    Foreground="White"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="12"   Grid.ColumnSpan="2" Margin="10,0,47,0">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Bahnschrift Light SemiCondensed"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#ff4c70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="30" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+                <Button x:Name="bara" Content="-"
+                    Foreground="White"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="12"   Grid.ColumnSpan="2" Margin="10,0,47,0">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="TextElement.FontFamily" Value="Bahnschrift Light SemiCondensed"/>
+                            <Setter Property="Background" Value="#FE6584"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#ff4c70"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="30" Height="20"
+                                CornerRadius="12"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+                <Button x:Name="Programbtn1" Content="Program"
+                    Foreground="#ff4c70"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="3" FontFamily="Bauhaus 93" Grid.ColumnSpan="2" Margin="0,0,57,0" Background="#181735" BorderBrush="#181735" Click="programbtn1"/>
+                <Button x:Name="contactbtn1" Content="Contact"
+                    Foreground="#ff4c70"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    Grid.Column="5" FontFamily="Bauhaus 93" Grid.ColumnSpan="2" Margin="0,0,57,0" Background="#181735"  BorderBrush="#181735" Click="contactbtn1"/>
+
+            </Grid>
+            <StackPanel Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Center" Margin="60                     "/>
+
+            <Grid Grid.Column="1"
+                Grid.RowSpan="2"
+                Margin="160, -365, -610, 85"
+                Panel.ZIndex="-1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="487*"/>
+                    <ColumnDefinition Width="363*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RenderTransform>
+                    <RotateTransform Angle="50"/>
+                </Grid.RenderTransform>
+
+                <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" Margin="-350, 250, -255, -250">
+                    <StackPanel>
+                        <Border Width="700"
+                            Height="35"
+                            Background="#3dddc2"
+                            Margin="150,0,0,0"
+                            CornerRadius="20"/>
+
+                        <Border Width="700"
+                            Height="35"
+                            Background="#fc6586"
+                            Margin="0,15,0,0"
+                            CornerRadius="20"/>
+
+                        <Border Width="700"
+                            Height="35"
+                            Background="#383660"
+                            Margin="75,15,0,0"
+                            CornerRadius="20"/>
+
+                    </StackPanel>
+                    <StackPanel>
+                        <Border Width="700"
+                            Height="35"
+                            Background="#3dddc2"
+                            Margin="150,0,0,0"
+                            CornerRadius="20"/>
+
+                        <Border Width="700"
+                            Height="35"
+                            Background="#fc6586"
+                            Margin="0,15,0,0"
+                            CornerRadius="20"/>
+
+                        <Border Width="700"
+                            Height="35"
+                            Background="#383660"
+                            Margin="75,15,0,0"
+                            CornerRadius="20"/>
+
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <TextBox HorizontalAlignment="Left" Margin="242,10,0,0" Grid.Row="2" Text="        Luni                                        09:00-20:00&#xA;&#xA;        Marti                                      09:00-20:00&#xA;&#xA;        Miercuri                                 09:00-20:00&#xA;&#xA;         Joi                                          09:00-20:00&#xA;&#xA;        Vineri                                     09:00-20:00&#xD;&#xA;&#xA;       Sambata                                09:00-14:00&#xA;&#xA;       Duminica                                     Inchis" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" RenderTransformOrigin="0.446,0.835" Height="283"
+                     FontFamily="Bauhaus 93"  Background="#181735" Foreground="#fc6586" BorderBrush="#181735" FontSize="14" Grid.ColumnSpan="2"/>
+        </Grid>
+        <TextBox x:Name="TITLUcontact" Text="Contact" TextWrapping="Wrap" Margin="0,61,0,358" FontFamily="Bauhaus 93" HorizontalAlignment="Center" FontSize="20" Foreground="#fc6586" BorderBrush="Transparent" Background="Transparent"/>
+    </Grid>
+</Page>
